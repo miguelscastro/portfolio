@@ -1,3 +1,7 @@
+import { CopyEmailbutton } from "../components/CopyEmailButton";
+import { Frameworks } from "../components/Frameworks";
+import { Globe } from "../components/Globe";
+
 export function About() {
   return (
     <section className="c-space section-spacing">
@@ -15,18 +19,41 @@ export function About() {
               backend skill to deliver dynamic and responsive web applications.
             </p>
           </div>
+
           <div className="absolute inset-x-0 pointer-events-none -bottom-4 h-1/2 sm:h-1/3 bg-gradient-to-t from-indigo" />
         </div>
-        <div className="grid-default-color grid-2">
-          <div className="flex items-center justify-center w-full h-full">
-            <p className="flex items-end text-5xl text-gray-500">
-              CODE IS CRAFT
+
+        <div className="grid-black-color grid-2">
+          <div className="z-10 w-[50%]">
+            <p className="headtext">Time Zone</p>
+            <p className="subtext">
+              I'm based in Santos - SP, and open to remote work worldwide
             </p>
           </div>
+          <figure className="absolute left-[40%] top-[-20%]">
+            <Globe />
+          </figure>
         </div>
-        <div className="grid-black-color grid-3"></div>
-        <div className="grid-special-color grid-4"></div>
-        <div className="grid-default-color grid-5"></div>
+
+        <div className="grid-special-color grid-3">
+          <div className="flex flex-col items-center justify-center gap-4 size-full">
+            <p className="text-center headtext">Do you want to make contact?</p>
+            <CopyEmailbutton />
+          </div>
+        </div>
+
+        <div className="grid-special2-color grid-4">
+          <div className="z-10 w-[50%]">
+            <p className="headtext">Tech Stack</p>
+            <p className="subtext">
+              I'm familiar with a variety of languages, frameworks and tools
+              that allow me to build robust and scalable applications
+            </p>
+          </div>
+          <div className="absolute inset-y-0 md:inset-y-9 w-full h-full start-[50%] md:scale-125">
+            <Frameworks />
+          </div>
+        </div>
       </div>
     </section>
   );
