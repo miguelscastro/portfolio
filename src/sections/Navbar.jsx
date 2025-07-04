@@ -6,22 +6,22 @@ function Navigation() {
     <ul className="nav-ul">
       <li className="nav-li">
         <a className="nav-link" href="#home">
-          Home
+          Início
         </a>
       </li>
       <li className="nav-li">
         <a className="nav-link" href="#about">
-          About
+          Sobre
         </a>
       </li>
       <li className="nav-li">
-        <a className="nav-link" href="#work">
-          Work
+        <a className="nav-link" href="#projects">
+          Projetos
         </a>
       </li>
       <li className="nav-li">
-        <a className="nav-link" href="#contact">
-          Contact
+        <a className="nav-link" href="#experience">
+          Experiência
         </a>
       </li>
     </ul>

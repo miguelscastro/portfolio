@@ -47,15 +47,14 @@ export function ProjectDetails({
                 href={url}
                 target="_blank"
               >
-                View Project{" "}
-                <img src="assets/arrow-up.svg" className="size-4" />
+                Ver Projeto <img src="assets/arrow-up.svg" className="size-4" />
               </a>
               <a
                 className="inline-flex items-center gap-1 font-medium hover-animation cursor-pointer"
                 href={repository}
                 target="_blank"
               >
-                View Repository{" "}
+                Ver Repositório{" "}
                 <img src="assets/arrow-up.svg" className="size-4" />
               </a>
             </div>

@@ -1,223 +1,125 @@
 export const myProjects = [
   {
     id: 1,
-    title: "To Do List",
+    title: "Lista de Tarefas",
     description:
-      "A simples yet efficiente to-do list to organize tasks and appointments.",
+      "Uma lista de tarefas simples e eficiente para organizar compromissos e atividades.",
     subDescription: [
-      "Built a application with ReactJS, CSSModules, and Phosphor Icons that enhances user experience through a straightforward and minimalistic interface.",
-      "Users may add new tasks to the list and have visual feedback when interacting with them, being it by deleting it or assigning it as completed",
-      ,
+      "Aplicação desenvolvida com ReactJS, CSS Modules e Phosphor Icons, oferecendo uma interface direta e minimalista para melhorar a experiência do usuário.",
+      "Usuários podem adicionar novas tarefas à lista e recebem feedback visual ao interagir com elas, seja marcando como concluída ou removendo.",
     ],
     url: "https://todo-miguelscastro.vercel.app/",
     repository: "https://github.com/miguelscastro/to-do-list",
     logo: "",
     image: "/assets/projects/todo-list.png",
     tags: [
-      {
-        id: 1,
-        name: "React",
-        path: "/assets/logos/react.svg",
-      },
-      {
-        id: 2,
-        name: "Git",
-        path: "/assets/logos/git.svg",
-      },
-      {
-        id: 3,
-        name: "CSSModules",
-        path: "/assets/logos/css3.svg",
-      },
-
-
+      { id: 1, name: "React", path: "/assets/logos/react.svg" },
+      { id: 2, name: "Git", path: "/assets/logos/git.svg" },
+      { id: 3, name: "CSSModules", path: "/assets/logos/css3.svg" },
     ],
   },
+
   {
     id: 2,
-    title: "Coffees Web Store",
+    title: "Loja de Cafés",
     description:
-      "A interface for a web store that sells different kinds of coffees",
+      "Interface para uma loja virtual especializada em diferentes tipos de cafés.",
     subDescription: [
-      "Developed a React-based Single Page Application (SPA) frontend with Typescript and Styled-components for a sleek user experience and code organization.",
-      "Optimized SEO and page speed using Vite.js for fast builds."
+      "Desenvolvimento de uma SPA com React, TypeScript e Styled-components, focada em uma experiência fluida e organização de código.",
+      "SEO otimizado e desempenho aprimorado utilizando Vite.js para builds rápidos.",
     ],
     url: "https://coffeedelivery-miguelscastro.vercel.app/",
     repository: "https://github.com/miguelscastro/coffee-delivery",
     logo: "",
     image: "/assets/projects/coffee-delivery.png",
     tags: [
-      {
-        id: 1,
-        name: "Typescript",
-        path: "/assets/logos/typescript.svg",
-      },
-      {
-        id: 2,
-        name: "Vite",
-        path: "/assets/logos/vitejs.svg",
-      },
-      {
-        id: 3,
-        name: "React",
-        path: "/assets/logos/react.svg",
-      },
-      {
-        id: 4,
-        name: "Git",
-        path: "/assets/logos/git.svg",
-      },
-      {
-        id: 5,
-        name: "Styled-components",
-        path: "/assets/logos/css3.svg",
-      },
-
-
+      { id: 1, name: "Typescript", path: "/assets/logos/typescript.svg" },
+      { id: 2, name: "Vite", path: "/assets/logos/vitejs.svg" },
+      { id: 3, name: "React", path: "/assets/logos/react.svg" },
+      { id: 4, name: "Git", path: "/assets/logos/git.svg" },
+      { id: 5, name: "Styled-components", path: "/assets/logos/css3.svg" },
     ],
   },
+
   {
     id: 3,
-    title: "Feed",
+    title: "Feed Social",
     description:
-      "A social media feed, similiar to instagram that allows users to comment on other posts",
+      "Um feed de rede social, semelhante ao Instagram, que permite aos usuários comentarem em postagens.",
     subDescription: [
-      "Developed a fully interactive Single Page Application (SPA) using React and Typescript",
-      "Users can comment inside posts and see when they were made",
-      "New posts can be coded into the application",
-      "Optimized SEO and page speed using Vite.js for fast builds."
+      "Aplicação SPA totalmente interativa construída com React e TypeScript.",
+      "Usuários podem comentar nas postagens e visualizar o tempo desde a publicação.",
+      "Novas postagens podem ser adicionadas ao código da aplicação.",
+      "SEO otimizado e performance elevada com Vite.js.",
     ],
     url: "https://feed-miguelscastro.vercel.app/",
-    repository: "https://github.com/miguelscastro/ignite/tree/main/react/01-fundamentos-reactjs-ts",
+    repository:
+      "https://github.com/miguelscastro/ignite/tree/main/react/01-fundamentos-reactjs-ts",
     logo: "",
     image: "/assets/projects/feed.png",
     tags: [
-      {
-        id: 1,
-        name: "Typescript",
-        path: "/assets/logos/typescript.svg",
-      },
-      {
-        id: 2,
-        name: "React",
-        path: "/assets/logos/react.svg",
-      },
-      {
-        id: 3,
-        name: "CSSModules",
-        path: "/assets/logos/css3.svg",
-      },
-      {
-        id: 4,
-        name: "Git",
-        path: "/assets/logos/git.svg",
-      },
-      {
-        id: 5,
-        name: "Vite",
-        path: "/assets/logos/vitejs.svg",
-      },
-
+      { id: 1, name: "Typescript", path: "/assets/logos/typescript.svg" },
+      { id: 2, name: "React", path: "/assets/logos/react.svg" },
+      { id: 3, name: "CSSModules", path: "/assets/logos/css3.svg" },
+      { id: 4, name: "Git", path: "/assets/logos/git.svg" },
+      { id: 5, name: "Vite", path: "/assets/logos/vitejs.svg" },
     ],
   },
+
   {
     id: 4,
-    title: "Timer",
+    title: "Timer Pomodoro",
     description:
-      "A pomodoro timer to cronometrate study time.",
+      "Um timer pomodoro para cronometrar sessões de estudo.",
     subDescription: [
-      "Built a straightforward interface with React, Typescript and Styled-components",
-      "Developed a timer with cycles up to 60 minutes that show a warning to the user when expired",
-      "Included a history saved on localStorage that contains past cycles data and if they were completed, interrupted or are in progress. ",
+      "Interface intuitiva desenvolvida com React, TypeScript e Styled-components.",
+      "Timer com ciclos de até 60 minutos, alertando o usuário ao término do tempo.",
+      "Histórico salvo no localStorage com dados sobre ciclos concluídos, interrompidos ou em andamento.",
     ],
     url: "https://timer-miguelscastro.vercel.app/",
-    repository: "https://github.com/miguelscastro/ignite/tree/main/react/02-ignite-timer",
+    repository:
+      "https://github.com/miguelscastro/ignite/tree/main/react/02-ignite-timer",
     logo: "",
     image: "/assets/projects/timer.png",
     tags: [
-      {
-        id: 1,
-        name: "React",
-        path: "/assets/logos/react.svg",
-      },
-      {
-        id: 2,
-        name: "Styled-components",
-        path: "/assets/logos/css3.svg",
-      },
-      {
-        id: 3,
-        name: "Git",
-        path: "/assets/logos/git.svg",
-      },
-      {
-        id: 4,
-        name: "Typescript",
-        path: "/assets/logos/typescript.svg",
-      },
+      { id: 1, name: "React", path: "/assets/logos/react.svg" },
+      { id: 2, name: "Styled-components", path: "/assets/logos/css3.svg" },
+      { id: 3, name: "Git", path: "/assets/logos/git.svg" },
+      { id: 4, name: "Typescript", path: "/assets/logos/typescript.svg" },
     ],
   },
+
   {
     id: 5,
-    title: "Confectuary E-commerce",
+    title: "E-commerce de Confeitaria",
     description:
-      "A scalable e-commerce for a confectuary that allow users: to register and buy products, and admins: to see the dashboard with data from the past month, manage products and product types, and create new admins",
+      "Um e-commerce escalável para confeitaria que permite aos usuários se registrarem, comprarem produtos e aos administradores gerenciarem o sistema.",
     subDescription: [
-      "Integrated Auth0 for authentication, supporting OAuth, JWT",
-      "Implemented role-based access control (RBAC) for fine-grained user permissions.",
-      "Developed a React-based frontend with Typescript, Styled-components and Recharts CSS for a smooth user experience.",
-      "Connected to a secure PostgreSQL database for user and products data storage.",
-      "Optimized SEO and page speed using Vite.js for fast builds.",
+      "Integração com Auth0 para autenticação via OAuth e JWT.",
+      "Implementação de controle de acesso baseado em papéis (RBAC).",
+      "Frontend em React com TypeScript, Styled-components e gráficos com Recharts.",
+      "Conexão segura com banco de dados PostgreSQL para armazenar dados de usuários e produtos.",
+      "SEO otimizado e alta performance com Vite.js.",
     ],
     url: "https://cakedesigner.vercel.app/",
     repository: "https://github.com/miguelscastro/cakedesigner-api",
     logo: "",
     image: "/assets/projects/cakedesigner.png",
     tags: [
-      {
-        id: 1,
-        name: "React",
-        path: "/assets/logos/react.svg",
-      },
-
-      {
-        id: 2,
-        name: "HTML5",
-        path: "/assets/logos/html5.svg",
-      },
-      {
-        id: 3,
-        name: "Styled-components",
-        path: "/assets/logos/css3.svg",
-      },
-      {
-        id: 4,
-        name: "Vite.js",
-        path: "/assets/logos/vitejs.svg",
-      },
-      {
-        id: 5,
-        name: "Typescript",
-        path: "/assets/logos/typescript.svg",
-      },
-      {
-        id: 6,
-        name: "Java",
-        path: "/assets/logos/java.svg",
-      },
-      {
-        id: 7,
-        name: "Spring Boot",
-        path: "/assets/logos/springboot.svg",
-      },
+      { id: 1, name: "React", path: "/assets/logos/react.svg" },
+      { id: 3, name: "Vite.js", path: "/assets/logos/vitejs.svg" },
+      { id: 4, name: "Typescript", path: "/assets/logos/typescript.svg" },
+      { id: 5, name: "Java", path: "/assets/logos/java.svg" },
+      { id: 6, name: "Spring Boot", path: "/assets/logos/springboot.svg" },
     ],
-  },
+  }
+
 ];
 
 export const mySocials = [
   {
     name: "WhatsApp",
-    href: "",
+    href: "https://wa.me/5513981000655",
     icon: "/assets/socials/whatsApp.svg",
   },
   {
@@ -229,23 +131,23 @@ export const mySocials = [
 
 export const experiences = [
   {
-    title: "Fullstack Developer",
-    job: "Confectuary E-commerce",
+    title: "Desenvolvedor Fullstack",
+    job: "E-commerce de Confeitaria",
     date: "2024",
     contents: [
-      "Created a e-commerce interface for a confectuary using React, Vite, Java, SpringBoot and ViaCEP API to showcase technical expertise in which i implemented: ",
+      "Criei uma interface de e-commerce para uma confeitaria usando React, Vite, Java, SpringBoot e a API do ViaCEP, demonstrando conhecimento técnico ao implementar:",
       "✅ Auth0",
       "✅ JWT",
-      "✅ Role Based Access Control (RBAC)",
-      "✅ Sensitive Data Encrypting",
+      "✅ Controle de Acesso baseado em Papéis (RBAC)",
+      "✅ Criptografia de Dados Sensíveis",
     ],
   },
   {
-    title: "Freelance Developer",
-    job: "Self-Employed",
-    date: "Present",
+    title: "Desenvolvedor Freelancer",
+    job: "Autônomo",
+    date: "Atualmente",
     contents: [
-      "Developed a interface for a coffee web store with React and Vite to simplify the orders and expand the business",
+      "Desenvolvi uma interface para uma loja de café online com React e Vite, com o objetivo de simplificar os pedidos e expandir o negócio",
     ],
-  },
+  }
 ];

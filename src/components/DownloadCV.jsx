@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { AnimatePresence, motion } from "motion/react";
+import { ArrowDown, DownloadIcon } from "lucide-react";
 
 export function DownloadCV() {
   const [donwloading, setDownloading] = useState(false);
@@ -22,7 +23,7 @@ export function DownloadCV() {
       onClick={downloadResume}
       whileHover={{ y: -5 }}
       whileTap={{ scale: 1.05 }}
-      className="w-[35%] h-[30%] mt-5 px-1 py-3 text-lg text-center rounded-md cursor-pointer bg-radial from-royal to-lavender"
+      className="w-[70%] sm:w-[50%] md:w-[45%] mt-5 px-1 py-3 text-lg text-center rounded-md cursor-pointer bg-radial from-royal to-lavender hover:from-royal hover:to-indigo-600"
     >
       <AnimatePresence mode="wait">
         {donwloading ? (
@@ -34,12 +35,7 @@ export function DownloadCV() {
             exit={{ opacity: 0, y: -10 }}
             transition={{ duration: 0.1, ease: "easeInOut" }}
           >
-            <img
-              src="assets/copy-done.svg"
-              className="w-5"
-              alt="download-icon"
-            />
-            Thanks :)
+            Obrigado!
           </motion.p>
         ) : (
           <motion.p
@@ -50,8 +46,8 @@ export function DownloadCV() {
             exit={{ opacity: 0 }}
             transition={{ duration: 0.1 }}
           >
-            <img src="assets/copy.svg" className="w-5" alt="download-icon" />
-            Download CV
+            <DownloadIcon />
+            Baixar Currículo
           </motion.p>
         )}
       </AnimatePresence>
