@@ -65,32 +65,8 @@ export const myProjects = [
       { id: 5, name: "Vite", path: "/assets/logos/vitejs.svg" },
     ],
   },
-
   {
     id: 4,
-    title: "Timer Pomodoro",
-    description:
-      "Um timer pomodoro para cronometrar sessões de estudo.",
-    subDescription: [
-      "Interface intuitiva desenvolvida com React, TypeScript e Styled-components.",
-      "Timer com ciclos de até 60 minutos, alertando o usuário ao término do tempo.",
-      "Histórico salvo no localStorage com dados sobre ciclos concluídos, interrompidos ou em andamento.",
-    ],
-    url: "https://timer-miguelscastro.vercel.app/",
-    repository:
-      "https://github.com/miguelscastro/ignite/tree/main/react/02-ignite-timer",
-    logo: "",
-    image: "/assets/projects/timer.png",
-    tags: [
-      { id: 1, name: "React", path: "/assets/logos/react.svg" },
-      { id: 2, name: "Styled-components", path: "/assets/logos/css3.svg" },
-      { id: 3, name: "Git", path: "/assets/logos/git.svg" },
-      { id: 4, name: "Typescript", path: "/assets/logos/typescript.svg" },
-    ],
-  },
-
-  {
-    id: 5,
     title: "E-commerce de Confeitaria",
     description:
       "Um e-commerce escalável para confeitaria que permite aos usuários se registrarem, comprarem produtos e aos administradores gerenciarem o sistema.",
@@ -112,8 +88,30 @@ export const myProjects = [
       { id: 5, name: "Java", path: "/assets/logos/java.svg" },
       { id: 6, name: "Spring Boot", path: "/assets/logos/springboot.svg" },
     ],
-  }
-
+  },
+  {
+    id: 5,
+    title: "GitHub Blog",
+    description:
+      "Uma aplicação React que transforma issues do GitHub em posts de blog dinâmicos.",
+    subDescription: [
+      "Busca dados de perfil, issues e resultados usando a GitHub REST API.",
+      "Renderiza conteúdo em Markdown com estilização semelhante ao GitHub.",
+      "Sistema de busca em tempo real com debounce e destaque de palavras-chave.",
+      "Layout responsivo com gerenciamento de estado via React Context API.",
+    ],
+    url: "https://githubblog-miguelscastro.vercel.app/",
+    repository: "https://github.com/miguelscastro/github-blog",
+    logo: "",
+    image: "/assets/projects/github-blog.png",
+    tags: [
+      { id: 1, name: "React", path: "/assets/logos/react.svg" },
+      { id: 2, name: "TypeScript", path: "/assets/logos/typescript.svg" },
+      { id: 3, name: "Styled-components", path: "/assets/logos/css3.svg" },
+      { id: 4, name: "GitHub API", path: "/assets/logos/git.svg" },
+      { id: 5, name: "Zod", path: "/assets/logos/zod.png" },
+    ],
+  },
 ];
 
 export const mySocials = [
