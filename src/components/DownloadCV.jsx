@@ -4,12 +4,12 @@ import { ArrowDown, DownloadIcon } from "lucide-react";
 
 export function DownloadCV() {
   const [donwloading, setDownloading] = useState(false);
-  const resume = "/assets/files/miguelcastro-cv.pdf";
+  const resume = "/assets/files/miguelcastro_cv.pdf";
 
   const downloadResume = () => {
     const link = document.createElement("a");
     link.href = resume;
-    link.download = "miguelcastro-cv.pdf";
+    link.download = "miguelcastro_cv.pdf";
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);

@@ -71,8 +71,8 @@ export const myProjects = [
     description:
       "Um e-commerce escalável para confeitaria que permite aos usuários se registrarem, comprarem produtos e aos administradores gerenciarem o sistema.",
     subDescription: [
-      "Integração com Auth0 para autenticação via OAuth e JWT.",
-      "Implementação de controle de acesso baseado em papéis (RBAC).",
+      "Integração com JWT para autenticação.",
+      "Implementação de controle de acesso baseado em credênciais (RBAC).",
       "Frontend em React com TypeScript, Styled-components e gráficos com Recharts.",
       "Conexão segura com banco de dados PostgreSQL para armazenar dados de usuários e produtos.",
       "SEO otimizado e alta performance com Vite.js.",
@@ -133,11 +133,12 @@ export const experiences = [
     job: "E-commerce de Confeitaria",
     date: "2024",
     contents: [
-      "Criei uma interface de e-commerce para uma confeitaria usando React, Vite, Java, SpringBoot e a API do ViaCEP, demonstrando conhecimento técnico ao implementar:",
-      "✅ Auth0",
-      "✅ JWT",
-      "✅ Controle de Acesso baseado em Papéis (RBAC)",
-      "✅ Criptografia de Dados Sensíveis",
+      "Desenvolvi uma aplicação de e-commerce, utilizando um stack moderno com React e Vite no frontend, e Java com Spring Boot no backend.",
+      "Implementei um sistema de autenticação e autorização robusto para proteger as rotas e os dados dos usuários, com funcionalidades essenciais de segurança:",
+      "✅ Autenticação com JWT (JSON Web Tokens): Garanti que as sessões dos usuários fossem seguras e eficientes, permitindo a comunicação stateless entre o cliente e o servidor.",
+      "✅ Controle de Acesso Baseado em Perfis (RBAC): Estruturei um sistema de permissões que diferenciava clientes e administradores, protegendo áreas críticas da aplicação.",
+      "✅ Criptografia de Dados Sensíveis: Utilizei algoritmos de hash (como bcrypt) para armazenar senhas de forma segura, prevenindo acesso não autorizado.",
+      "Integrei a API externa do ViaCEP para validação e preenchimento automático de endereços, melhorando a experiência do usuário (UX) no processo de checkout."
     ],
   },
   {
@@ -145,7 +146,13 @@ export const experiences = [
     job: "Autônomo",
     date: "Atualmente",
     contents: [
-      "Desenvolvi uma interface para uma loja de café online com React e Vite, com o objetivo de simplificar os pedidos e expandir o negócio",
+      "projetei e implementei uma variedade de Single Page Applications (SPAs) de alta performance, utilizando um stack moderno focado em React e TypeScript para entregar interfaces ricas e interativas.",
+      "Demonstrei proficiência em diversas áreas-chave do desenvolvimento de software:",
+      "✅ Arquitetura e Escalabilidade com TypeScript: Estruturei aplicações com componentização modular e um sistema de tipos robusto, garantindo a manutenibilidade do código e a detecção de erros em tempo de compilação, o que é crucial para projetos de longo prazo.",
+      "✅ Integração com APIs Externas (REST): Desenvolvi funcionalidades complexas baseadas no consumo de serviços de terceiros, como na aplicação que integra a API do GitHub para buscar e exibir dados dinamicamente, gerenciando o estado assíncrono de forma eficiente.",
+      "✅ Foco em Performance e Experiência do Usuário (UX): Utilizei ferramentas como Vite.js para otimizar o tempo de build e a velocidade de carregamento das páginas. Implementei interfaces fluidas e responsivas com feedback visual imediato para maximizar o engajamento do usuário.",
+      "✅ Versatilidade em Estilização: Apliquei diferentes metodologias de estilização, incluindo CSS-in-JS (Styled Components) e CSS Modules, adaptando a abordagem conforme a necessidade de cada projeto para garantir escopo e reutilização."
+
     ],
   }
 ];

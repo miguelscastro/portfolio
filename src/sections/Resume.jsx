@@ -3,7 +3,7 @@ import { DownloadCV } from "../components/DownloadCV";
 import BackToTop from "../components/BackToTop";
 export const Resume = () => {
   return (
-    <section className="relative flex flex-col items-center c-space h-60 w-full mb-10">
+    <section className="relative flex flex-col items-center c-space h-60 w-full mb-10 mt-140">
       <Particles
         className="absolute inset-0 -z-50"
         quantity={100}
