@@ -129,30 +129,63 @@ export const mySocials = [
 
 export const experiences = [
   {
-    title: "Desenvolvedor Fullstack",
-    job: "E-commerce de Confeitaria",
-    date: "2024",
+    title: "Desenvolvedor Front-end",
+    job: "Freelance",
+    date: "ago de 2024 - out de 2024",
     contents: [
-      "Desenvolvi uma aplicação de e-commerce, utilizando um stack moderno com React e Vite no frontend, e Java com Spring Boot no backend.",
-      "Implementei um sistema de autenticação e autorização robusto para proteger as rotas e os dados dos usuários, com funcionalidades essenciais de segurança:",
-      "✅ Autenticação com JWT (JSON Web Tokens): Garanti que as sessões dos usuários fossem seguras e eficientes, permitindo a comunicação stateless entre o cliente e o servidor.",
-      "✅ Controle de Acesso Baseado em Perfis (RBAC): Estruturei um sistema de permissões que diferenciava clientes e administradores, protegendo áreas críticas da aplicação.",
-      "✅ Criptografia de Dados Sensíveis: Utilizei algoritmos de hash (como bcrypt) para armazenar senhas de forma segura, prevenindo acesso não autorizado.",
-      "Integrei a API externa do ViaCEP para validação e preenchimento automático de endereços, melhorando a experiência do usuário (UX) no processo de checkout."
+      "Desenvolvi a interface de uma Single Page Application (SPA) para uma loja virtual de cafés, focado em criar uma experiência de usuário fluida.",
+      "A aplicação foi construída com React e TypeScript, utilizando Styled-Components para a estilização.",
+      "📈 O foco principal foi a otimização de performance e a estrutura do código, utilizando Vite.js para builds rápidos.",
     ],
   },
   {
-    title: "Desenvolvedor Freelancer",
-    job: "Autônomo",
-    date: "Atualmente",
+    title: "Desenvolvedor Full Stack",
+    job: "Freelance",
+    date: "nov de 2024 - mar de 2025",
     contents: [
-      "projetei e implementei uma variedade de Single Page Applications (SPAs) de alta performance, utilizando um stack moderno focado em React e TypeScript para entregar interfaces ricas e interativas.",
-      "Demonstrei proficiência em diversas áreas-chave do desenvolvimento de software:",
-      "✅ Arquitetura e Escalabilidade com TypeScript: Estruturei aplicações com componentização modular e um sistema de tipos robusto, garantindo a manutenibilidade do código e a detecção de erros em tempo de compilação, o que é crucial para projetos de longo prazo.",
-      "✅ Integração com APIs Externas (REST): Desenvolvi funcionalidades complexas baseadas no consumo de serviços de terceiros, como na aplicação que integra a API do GitHub para buscar e exibir dados dinamicamente, gerenciando o estado assíncrono de forma eficiente.",
-      "✅ Foco em Performance e Experiência do Usuário (UX): Utilizei ferramentas como Vite.js para otimizar o tempo de build e a velocidade de carregamento das páginas. Implementei interfaces fluidas e responsivas com feedback visual imediato para maximizar o engajamento do usuário.",
-      "✅ Versatilidade em Estilização: Apliquei diferentes metodologias de estilização, incluindo CSS-in-JS (Styled Components) e CSS Modules, adaptando a abordagem conforme a necessidade de cada projeto para garantir escopo e reutilização."
-
+      "Participei do desenvolvimento de uma aplicação de e-commerce full-stack, utilizando Java/Spring Boot no back-end e React/Vite no front-end.",
+      "Fui responsável pela implementação do sistema de autenticação e autorização, com foco em segurança:",
+      "✅ Autenticação com Spring Security e JWT.",
+      "✅ Controle de Acesso Baseado em Perfis (RBAC).",
+      "✅ Criptografia de dados sensíveis (bcrypt).",
+      "💡 UX: Integrei a API externa do ViaCEP para preenchimento automático de endereços no checkout.",
     ],
-  }
+  },
+  {
+    title: "Desenvolvedor Front-end",
+    job: "Freelance",
+    date: "abr de 2025",
+    contents: [
+      "Criei uma aplicação React que transforma *issues* de um repositório GitHub em um blog dinâmico.",
+      "Fui responsável por integrar a API REST do GitHub para buscar dados de perfil e *issues* de forma assíncrona.",
+      "✅ Tecnologias: Utilizei Axios para requisições, Zod para validação de dados e React Context para estado global.",
+      "✅ Features: Implementei uma funcionalidade de busca com *debounce* e estilização com Styled-Components.",
+    ],
+  },
+  {
+    title: "Desenvolvedor Front-end",
+    job: "Freelance",
+    date: "mar de 2025 - jul de 2025",
+    contents: [
+      "Atuei no desenvolvimento de uma SPA de gerenciamento de restaurante, com foco estratégico em garantir a máxima qualidade de código.",
+      "Minha principal responsabilidade foi a implementação de uma suíte de testes completa:",
+      "✅ Testes Unitários com Vitest e Testes de Integração com React Testing Library.",
+      "✅ Testes End-to-End (E2E) com Playwright para simular o fluxo do usuário.",
+      "Participei também da construção da interface responsiva com React, TypeScript e TailwindCSS.",
+    ],
+  },
+  {
+    title: "Desenvolvedor Full Stack",
+    job: "Freelance",
+    date: "agosto de 2025 - o momento",
+    contents: [
+      "🚀 Atuo como o principal desenvolvedor e arquiteto de uma aplicação de e-commerce full-stack.",
+      "Minhas responsabilidades abrangem o ciclo de vida completo do sistema, com foco em arquitetura modular (Use-Case-driven).",
+      "🔧 Stack de Back-end: API robusta com Java 21 e Spring Boot 3.",
+      "🎨 Stack de Front-end: SPA moderna com React, Vite, TailwindCSS e React Query.",
+      "🔒 Segurança: Implementação de sistema de segurança completo (Spring Security 6, JWT, RBAC).",
+      "💳 Pagamentos: Integração de gateways de pagamento (Stripe).",
+      "☁️ Infraestrutura: Gerenciamento da infraestrutura da aplicação com serviços AWS.",
+    ],
+  },
 ];

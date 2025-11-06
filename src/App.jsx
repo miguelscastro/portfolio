@@ -9,7 +9,7 @@ import { Footer } from "./sections/Footer";
 export function App() {
   return (
     <>
-      <div className="contaienr mx-auto max-w-7xl">
+      <div className="container mx-auto max-w-7xl">
         <Navbar />
         <Hero />
         <About />
