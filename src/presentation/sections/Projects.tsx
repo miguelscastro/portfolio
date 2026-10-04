@@ -6,7 +6,14 @@ import type { Project as ProjectModel } from "@/domain/project";
 import { Project } from "../components/Project";
 import { useI18n } from "../i18n/I18nProvider";
 
-export function Projects({ projects }: { projects: readonly ProjectModel[] }) {
+export function Projects({
+  projects,
+  children,
+}: {
+  projects: readonly ProjectModel[];
+  /** Rendered below the list (the hub cards). */
+  children?: React.ReactNode;
+}) {
   const x = useMotionValue(0);
   const y = useMotionValue(0);
   const springX = useSpring(x, { damping: 10, stiffness: 50 });
@@ -41,6 +48,7 @@ export function Projects({ projects }: { projects: readonly ProjectModel[] }) {
           />
         )}
       </div>
+      {children}
     </section>
   );
 }

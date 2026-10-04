@@ -2,7 +2,7 @@
 
 Personal portfolio of Miguel Castro, built with **Next.js (App Router) + TypeScript + Tailwind CSS v4**.
 
-Besides being a portfolio, the site is a **hub**: a section that links to my other applications, each deployed on its own.
+Besides being a portfolio, the site is a **hub**: cards under the Projects list that link to my other applications, each deployed on its own.
 
 ```
 miguelcastro.vercel.app            → this portfolio
@@ -58,7 +58,7 @@ src/
 
 **`app/page.tsx` is a server component.** It calls the use cases and passes the results down as props. Only components that need browser APIs or animation state (`motion`, canvas, WebGL, scroll listeners) are marked `"use client"`; the data layer never ships to the browser.
 
-**Open/Closed hub.** Adding a site to the hub is one entry in `infrastructure/content/hub-apps.ts`; the Hub section renders whatever the registry contains.
+**Open/Closed hub.** Adding a site to the hub is one entry in `infrastructure/content/hub-apps.ts`; the hub cards (rendered under the Projects list) show whatever the registry contains.
 
 **Domain types over loose objects.** Entities are `readonly`, have stable `id`s instead of array indexes, and the localized authoring shapes (`*Definition`) are separate from the resolved entities components receive.
 
