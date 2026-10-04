@@ -75,7 +75,7 @@ function BadgeDialog({
         aria-modal="true"
         aria-label={cert.name}
         onClick={(e) => e.stopPropagation()}
-        className="relative w-full max-w-md border shadow-sm rounded-2xl bg-gradient-to-l from-midnight to-navy border-white/10"
+        className="relative w-full max-w-md max-h-[90vh] overflow-y-auto border shadow-sm rounded-2xl bg-gradient-to-l from-midnight to-navy border-white/10"
         initial={{ opacity: 0, scale: 0.8 }}
         animate={{ opacity: 1, scale: 1 }}
       >
