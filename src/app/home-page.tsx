@@ -42,16 +42,17 @@ export async function HomePage({ locale }: { locale: Locale }) {
         <Hero />
         <About email={profile.email} dict={dict.about} />
         <Skills groups={skills} dict={dict.skills} />
-        <Hub apps={hubApps} dict={dict.hub} />
-        <Projects projects={projects} />
+        <Badges certifications={certifications} dict={dict.badges} />
         <Experiences experiences={experiences} />
+        <Projects projects={projects}>
+          <Hub apps={hubApps} />
+        </Projects>
         <Credentials
           education={education}
           certifications={certifications}
           locale={locale}
           dict={dict.credentials}
         />
-        <Badges certifications={certifications} dict={dict.badges} />
         <Resume resumePath={profile.resumePath} dict={dict.resume} />
         <Footer socials={profile.socials} dict={dict.footer} />
       </div>

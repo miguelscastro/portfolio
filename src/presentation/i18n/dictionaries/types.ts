@@ -4,7 +4,7 @@ export interface Dictionary {
   nav: {
     home: string;
     about: string;
-    hub: string;
+    skills: string;
     projects: string;
     experience: string;
     badges: string;
@@ -33,7 +33,6 @@ export interface Dictionary {
     stackTitle: string;
     stackText: string;
   };
-  hub: { title: string; subtitle: string };
   projects: {
     title: string;
     learnMore: string;

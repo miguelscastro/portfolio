@@ -10,7 +10,7 @@ export const pt: Dictionary = {
   nav: {
     home: "Início",
     about: "Sobre",
-    hub: "Hub",
+    skills: "Habilidades",
     projects: "Projetos",
     experience: "Experiência",
     badges: "Badges",
@@ -41,10 +41,6 @@ export const pt: Dictionary = {
     stackTitle: "Tech Stack",
     stackText:
       "Go, Java e Terraform na AWS e no GCP para infraestrutura e backend, React e Next.js no front.",
-  },
-  hub: {
-    title: "Hub",
-    subtitle: "Meus outros sites e aplicações, todos acessíveis a partir daqui.",
   },
   projects: {
     title: "Meus Projetos",

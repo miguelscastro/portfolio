@@ -12,10 +12,10 @@ function Navigation() {
   const links = [
     { href: "#home", label: nav.home },
     { href: "#about", label: nav.about },
-    { href: "#hub", label: nav.hub },
-    { href: "#projects", label: nav.projects },
-    { href: "#experience", label: nav.experience },
+    { href: "#skills", label: nav.skills },
     { href: "#badges", label: nav.badges },
+    { href: "#experience", label: nav.experience },
+    { href: "#projects", label: nav.projects },
   ];
   // With two locales the switcher points at the other one.
   const other = locales.find((l) => l !== locale) ?? defaultLocale;
