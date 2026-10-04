@@ -44,6 +44,8 @@ export const en: Dictionary = {
   },
   projects: {
     title: "My Projects",
+    description:
+      "Systems I've designed and built. Open a project to see how it works, or jump straight into the live apps below.",
     learnMore: "Learn more",
     viewProject: "View Project",
     viewRepository: "View Repository",

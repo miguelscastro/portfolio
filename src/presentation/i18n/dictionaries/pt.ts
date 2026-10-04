@@ -44,6 +44,8 @@ export const pt: Dictionary = {
   },
   projects: {
     title: "Meus Projetos",
+    description:
+      "Sistemas que projetei e construí. Abra um projeto para ver como funciona, ou vá direto para as aplicações no ar logo abaixo.",
     learnMore: "Saiba mais",
     viewProject: "Ver Projeto",
     viewRepository: "Ver Repositório",

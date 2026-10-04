@@ -33,6 +33,7 @@ export function Projects({
       id="projects"
     >
       <h2 className="text-heading">{dict.projects.title}</h2>
+      <p className="mt-3 subtext max-w-xl">{dict.projects.description}</p>
       <div className="mt-12 w-full">
         <div className="bg-gradient-to-r from-transparent via-neutral-700 to-transparent h-[1px] w-full" />
         {projects.map((project) => (

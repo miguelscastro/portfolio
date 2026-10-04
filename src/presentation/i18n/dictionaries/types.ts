@@ -35,6 +35,7 @@ export interface Dictionary {
   };
   projects: {
     title: string;
+    description: string;
     learnMore: string;
     viewProject: string;
     viewRepository: string;
