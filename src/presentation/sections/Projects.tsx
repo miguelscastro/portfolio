@@ -26,7 +26,8 @@ export function Projects({ projects }: { projects: readonly ProjectModel[] }) {
       id="projects"
     >
       <h2 className="text-heading">{dict.projects.title}</h2>
-      <div className="bg-gradient-to-r from-transparent via-neutral-700 to-transparent mt-12 h-[1px] w-full">
+      <div className="mt-12 w-full">
+        <div className="bg-gradient-to-r from-transparent via-neutral-700 to-transparent h-[1px] w-full" />
         {projects.map((project) => (
           <Project key={project.id} project={project} setPreview={setPreview} />
         ))}

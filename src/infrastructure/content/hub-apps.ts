@@ -1,11 +1,9 @@
-// Relative imports: this file is also loaded by next.config.ts.
-import type { HubAppDefinition } from "../../domain/hub-app";
-import { localized } from "../../domain/locale";
+import type { HubAppDefinition } from "@/domain/hub-app";
+import { localized } from "@/domain/locale";
 
 /**
  * The hub registry — the single place to register a site.
- * Mounted apps are served at <this site>/<path> through a rewrite generated
- * from this list; external apps are plain links.
+ * Each app is its own deployment; the hub only links to it.
  */
 export const hubApps: readonly HubAppDefinition[] = [
   {
@@ -16,10 +14,6 @@ export const hubApps: readonly HubAppDefinition[] = [
       "Gerenciador de finanças: receitas, despesas, investimentos, cartões, assinaturas, orçamentos e metas.",
     ),
     tags: ["React", "TypeScript", "Node.js", "MongoDB"],
-    target: {
-      kind: "mounted",
-      path: "/finance",
-      upstream: { envVar: "FINANCE_URL", devOrigin: "http://localhost:3001" },
-    },
+    url: "https://finance.miguelcastro.vercel.app",
   },
 ];
