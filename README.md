@@ -6,7 +6,7 @@ Besides being a portfolio, the site is a **hub**: a section that links to my oth
 
 ```
 miguelcastro.vercel.app            → this portfolio
-finance.miguelcastro.vercel.app    → personal-finances app (separate deployment)
+finance-miguelcastro.vercel.app    → personal-finances app (separate deployment)
 ```
 
 ## Getting started
@@ -83,7 +83,7 @@ Each hub app is its own deployment on its own (sub)domain; the hub links to it. 
   name: localized("Personal Finances", "Finanças Pessoais"),
   description: localized("...", "..."),
   tags: ["React", "TypeScript"],
-  url: "https://finance.miguelcastro.vercel.app",
+  url: "https://finance-miguelcastro.vercel.app",
 }
 ```
 

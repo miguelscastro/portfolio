@@ -14,6 +14,6 @@ export const hubApps: readonly HubAppDefinition[] = [
       "Gerenciador de finanças: receitas, despesas, investimentos, cartões, assinaturas, orçamentos e metas.",
     ),
     tags: ["React", "TypeScript", "Node.js", "MongoDB"],
-    url: "https://finance.miguelcastro.vercel.app",
+    url: "https://finance-miguelcastro.vercel.app",
   },
 ];
