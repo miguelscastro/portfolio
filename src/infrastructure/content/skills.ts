@@ -9,7 +9,9 @@ export const skills: readonly SkillGroupDefinition[] = [
     label: localized("Backend & Infrastructure", "Backend e Infraestrutura"),
     items: same([
       "Go (Golang)",
-      "Java (Spring Boot, Spring Security – JWT/RBAC)",
+      "Java",
+      "Spring Boot",
+      "Spring Security (JWT/RBAC)",
       "Terraform (IaC)",
       "Docker",
       "CI/CD",
@@ -20,8 +22,8 @@ export const skills: readonly SkillGroupDefinition[] = [
     id: "cloud",
     label: localized("Cloud", "Cloud"),
     items: localized(
-      ["AWS", "Google Cloud Platform (GCP/Apigee)", "Multi-cloud environments"],
-      ["AWS", "Google Cloud Platform (GCP/Apigee)", "Ambientes multi-cloud"],
+      ["AWS", "Google Cloud Platform (GCP)", "Apigee", "Multi-cloud environments"],
+      ["AWS", "Google Cloud Platform (GCP)", "Apigee", "Ambientes multi-cloud"],
     ),
   },
   {
