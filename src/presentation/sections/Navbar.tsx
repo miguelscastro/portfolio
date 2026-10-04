@@ -1,5 +1,6 @@
 "use client";
 
+import { Languages } from "lucide-react";
 import { motion } from "motion/react";
 import { useState } from "react";
 import { defaultLocale, locales } from "@/domain/locale";
@@ -31,12 +32,15 @@ function Navigation() {
       ))}
       <li className="nav-li">
         <a
-          className="nav-link"
+          className="nav-link inline-flex items-center gap-1.5"
           href={localeHref(other)}
           hrefLang={other}
           lang={other}
+          title={nav.switchLanguage}
+          aria-label={nav.switchLanguage}
         >
-          {nav.switchLanguage}
+          <Languages className="size-5 md:size-4" aria-hidden />
+          <span className="uppercase">{other}</span>
         </a>
       </li>
     </ul>

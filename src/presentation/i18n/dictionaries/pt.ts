@@ -15,17 +15,17 @@ export const pt: Dictionary = {
     experience: "Experiência",
     badges: "Badges",
     menu: "Menu",
-    switchLanguage: "English",
+    switchLanguage: "Switch to English",
   },
   hero: {
     greeting: "Oi, eu sou o Miguel",
     greetingMobile: "Oi, eu sou Miguel",
-    taglineTop: "Um desenvolvedor",
-    taglineBottom: "dedicado a aprender e a construir",
-    words: ["Seguras", "Modernas", "Escaláveis"],
-    suffix: "Soluções Web",
+    taglineTop: "Engenheiro DevSecOps e de Plataforma",
+    taglineBottom: "construindo e automatizando",
+    words: ["Seguras", "Escaláveis", "Automatizadas"],
+    suffix: "Plataformas Cloud na AWS e no GCP",
     mobileLead: "Construindo",
-    mobileSuffix: "Aplicações Web",
+    mobileSuffix: "Plataformas Cloud",
   },
   about: {
     title: "Sobre mim",
@@ -44,6 +44,8 @@ export const pt: Dictionary = {
   },
   projects: {
     title: "Meus Projetos",
+    description:
+      "Sistemas que projetei e construí. Abra um projeto para ver como funciona, ou vá direto para as aplicações no ar logo abaixo.",
     learnMore: "Saiba mais",
     viewProject: "Ver Projeto",
     viewRepository: "Ver Repositório",
