@@ -38,33 +38,4 @@ export const projects: readonly ProjectDefinition[] = [
       { name: "Spring Boot", logo: logo("springboot") },
     ],
   },
-  {
-    id: "portfolio",
-    title: localized("Portfolio", "Portfólio"),
-    description: localized(
-      "This site: my portfolio and the hub that gives access to my other projects on the same domain.",
-      "Este site: meu portfólio e o hub que dá acesso aos meus outros projetos no mesmo domínio.",
-    ),
-    details: localized(
-      [
-        "Built with Next.js and TypeScript, organized in layers (domain, application, infrastructure and presentation) following DDD and SOLID principles.",
-        "A single app registry feeds both the Hub section and the rewrites that serve other sites under subpaths, such as /finance.",
-        "Animations with Motion, an interactive globe with Cobe and styling with Tailwind CSS.",
-      ],
-      [
-        "Construído com Next.js e TypeScript, organizado em camadas (domínio, aplicação, infraestrutura e apresentação) seguindo princípios de DDD e SOLID.",
-        "Um registro único de aplicações alimenta tanto a seção Hub quanto os rewrites que servem outros sites em subcaminhos, como /finance.",
-        "Animações com Motion, globo interativo com Cobe e estilização com Tailwind CSS.",
-      ],
-    ),
-    url: "https://miguelcastro.vercel.app/",
-    repository: "https://github.com/miguelscastro/portfolio",
-    image: "/assets/projects/portfolio.png",
-    tags: [
-      { name: "Next.js", logo: logo("nextjs") },
-      { name: "TypeScript", logo: logo("typescript") },
-      { name: "React", logo: logo("react") },
-      { name: "Tailwind CSS", logo: logo("tailwindcss") },
-    ],
-  },
 ];
